@@ -1,6 +1,6 @@
 import styles from '../styles/sidebar.module.css'
 import Link from 'next/link'
-import Home from '../components/SVGs/Home'
+import Home from './SVGs/HomeSvg'
 import User from './SVGs/User'
 import Ham from './SVGs/Ham'
 import Bag from './SVGs/Bag'

@@ -1,8 +1,14 @@
 import Sidebar from "../components/Sidebar"
-export default function Home() {
+import styles from '../styles/index.module.css'
+import Home from "../components/Home"
+export default function Index() {
   return (
     <>
-      <Sidebar />
+      <div className={styles.container}>
+
+        <Sidebar />
+        <Home />
+      </div>
     </>
   )
 }
