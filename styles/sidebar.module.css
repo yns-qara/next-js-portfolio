@@ -40,9 +40,10 @@
     width: 100%;
 }
 
-.navigation div div{
+.navigation div div svg{
     display: block;
-
+    transform: scale(.8);
+    
 }
 .navigation div a{
     font-family: 'Trispace', sans-serif;

@@ -5,6 +5,18 @@ import User from './SVGs/User'
 import Ham from './SVGs/Ham'
 import Bag from './SVGs/Bag'
 import Message from './SVGs/Message'
+
+
+/*
+
+home , about , servecies , portfolio , contact
+are components not pages.
+they are gonna be swithced using a function that will be trigered onclick
+
+
+
+*/
+
 const Sidebar = () => {
     return (
         <div className={styles.parent}>
