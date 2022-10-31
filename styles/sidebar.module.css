@@ -1,0 +1,51 @@
+.parent{
+    background-color: rgb(187, 187, 187);
+    padding: 45px 55px;
+    /* position: fixed;
+    top: 0;
+    left: 0; */
+    height: 100vh;
+    max-width: 300px;
+
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    /* gap: 35vh; */
+
+    width: 100%;
+    height: 100%;
+
+}
+
+
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.5vh;
+}
+
+.navigation > div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    width: 100%;
+}
+
+.navigation div div{
+    display: block;
+
+}
+.navigation div a{
+    font-family: 'Trispace', sans-serif;
+    font-weight: 600;
+    width: 100%;
+}

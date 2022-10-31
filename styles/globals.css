@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@500&family=Montserrat:wght@800&family=Open+Sans:wght@400;700&family=Roboto:wght@700&family=Trispace:wght@500&display=swap');
+
+
+
+
+
 html,
 body {
   padding: 0;
@@ -14,6 +20,7 @@ a {
 * {
   box-sizing: border-box;
 }
+
 /* 
 @media (prefers-color-scheme: dark) {
   html {
