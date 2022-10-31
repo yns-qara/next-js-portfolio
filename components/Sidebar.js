@@ -13,6 +13,9 @@ home , about , servecies , portfolio , contact
 are components not pages.
 they are gonna be swithced using a function that will be trigered onclick
 
+primary color : #02393e
+secondary color : #0d484e
+inBetween color : #045b62
 
 
 */

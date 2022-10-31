@@ -1,5 +1,5 @@
 .parent{
-    background-color: rgb(187, 187, 187);
+    background-color: #02393e;
     padding: 45px 55px;
     /* position: fixed;
     top: 0;
@@ -9,6 +9,11 @@
 
     display: flex;
     align-items: center;
+
+    border-style: solid;
+    border-color: #045b62;
+    border-width: 0 15px 0 0;
+    color: #fff;
 }
 
 .container{
@@ -43,6 +48,7 @@
 .navigation div div svg{
     display: block;
     transform: scale(.8);
+    fill: #fff;
     
 }
 .navigation div a{
