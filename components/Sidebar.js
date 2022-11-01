@@ -18,6 +18,18 @@ secondary color : #0d484e
 inBetween color : #045b62
 
 
+original : 	hsl(185, 94%, 13%)
+tested : 	hsl(184, 72%, 13%)
+
+
+new color pallete:
+
+primary : 	hsl(186, 71%, 18%)
+darker : 	hsl(184, 72%, 13%)
+neutral : 	hsl(183, 100%, 90%)
+beight blue : hsl(184, 100%, 79%)
+
+
 */
 
 const Sidebar = () => {

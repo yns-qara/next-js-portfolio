@@ -26,7 +26,7 @@
 }
 
 .left p {
-    color: #fff;
+    color: hsl(183, 100%, 90%);
     text-align: justify;
     font-weight: 500;
     font-family: 'Esteban', serif;
@@ -34,32 +34,38 @@
     font-size: .7rem;
 }
 
-.left a{
-    background-color: aqua;
+.left a {
+    background-color: hsl(184, 100%, 79%);
     padding: 15px 50px;
     border-radius: 15px;
     font-family: 'Roboto Flex', sans-serif;
     font-weight: 600;
     font-size: 15px;
     text-transform: uppercase;
+    text-align: center;
     transition: all .3s ease;
 }
 
-.left a:hover{
-    background-color: #045b62;
+.left a:hover {
+    background-color: hsl(183, 100%, 90%)
 }
 
 .right div img {
 
     display: block;
+
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
-.right div{
+.right div {
     position: relative;
-    padding: 25px ;
+    padding: 25px;
 
 }
-.right div::before{
+
+.right div::before {
     content: '';
     position: absolute;
     top: 0;
@@ -73,7 +79,8 @@
 
 
 }
-.right div::after{
+
+.right div::after {
     content: '';
     position: absolute;
     bottom: 0;
