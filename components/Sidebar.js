@@ -50,7 +50,10 @@ const Sidebar = () => {
                 </div>
 
                 <div className={styles.footer}>
-                    this is the mini footer for this single page app
+                    <Link href="#">privacy</Link>
+                    <Link href="#">ad choices</Link>
+                    <Link href="#">advertising</Link>
+                    <Link href="#">terms</Link>
                 </div>
             </div>
         </div>

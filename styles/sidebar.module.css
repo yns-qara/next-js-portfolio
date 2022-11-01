@@ -1,6 +1,6 @@
 .parent {
     background-color: #02393e;
-    padding: 45px 55px;
+    padding: 45px 5px;
     /* position: fixed;
     top: 0;
     left: 0; */
@@ -55,4 +55,37 @@
     font-family: 'Trispace', sans-serif;
     font-weight: 600;
     width: 100%;
+}
+
+.footer {
+    font-family: 'Inconsolata', monospace;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+    flex-wrap: wrap;
+    opacity: .5;
+}
+
+.footer a{
+    color: #f0f2f5;
+    font-size: 13px;
+    position: relative;
+    text-transform: capitalize;
+}
+
+.footer a::before{
+    content: '';
+    position: absolute;
+    background-color: #6edae4;
+    width: 5px;
+    height: 5px;
+    top: 50%;
+    transform: translateY(-50%) rotate(45deg);
+    right: -10px;
+    border-radius: 25%;
+}
+
+.footer a:last-child::before{
+    display: none;
 }
