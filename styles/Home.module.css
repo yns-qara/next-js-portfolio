@@ -14,12 +14,14 @@
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
-    gap: 5vh;
+    gap: 2vh;
 }
 
 .left h1 {
     color: #fff;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.3rem;
 
 }
 
@@ -27,8 +29,9 @@
     color: #fff;
     text-align: justify;
     font-weight: 500;
-    font-family: 'Roboto Flex', sans-serif;
-    line-height: 20px;
+    font-family: 'Esteban', serif;
+    line-height: 27px;
+    font-size: .7rem;
 }
 
 .left a{
@@ -49,4 +52,38 @@
 .right div img {
 
     display: block;
+}
+
+.right div{
+    position: relative;
+    padding: 25px ;
+
+}
+.right div::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+
+    border-color: #fff;
+    border-style: solid;
+    border-width: 4px 0 0 4px;
+
+
+}
+.right div::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+
+    border-color: #fff;
+    border-style: solid;
+    border-width: 0px 4px 4px 0;
+
+
 }
