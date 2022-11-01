@@ -12,7 +12,7 @@
     border-style: solid;
     border-color: #045b62;
     border-width: 0 15px 0 0;
-    color: #fff;
+    color: hsl(183, 100%, 90%);
 }
 
 .container {
@@ -47,13 +47,13 @@
 .navigation div div svg {
     display: block;
     transform: scale(.8);
-    fill: #fff;
+    fill: hsl(183, 100%, 90%);
 
 }
 
 .navigation div a {
     font-family: 'Trispace', sans-serif;
-    font-weight: 600;
+    font-weight: 500;
     width: 100%;
     font-size: .6rem;
 }
