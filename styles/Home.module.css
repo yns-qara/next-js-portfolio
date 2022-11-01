@@ -1,6 +1,42 @@
-.contaier{
+.contaier {
     display: flex;
-    justify-content: center;
     align-items: center;
-    
+    justify-content: space-between;
+
+    padding: 25px;
+    background-color: #0d484e;
+}
+
+.left {
+    flex-basis: 45%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5vh;
+}
+
+.left h1 {
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+
+}
+
+.left p {
+    color: #fff;
+    text-align: justify;
+    font-weight: 500;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+.left a{
+    background-color: aqua;
+    padding: 15px 50px;
+    border-radius: 15px;
+}
+
+.right div img {
+
+    display: block;
 }
