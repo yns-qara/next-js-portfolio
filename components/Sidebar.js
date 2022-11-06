@@ -32,18 +32,26 @@ beight blue : hsl(184, 100%, 79%)
 
 */
 
-const Sidebar = () => {
+const Sidebar = ({about, setAbout ,home, setHome}) => {
+
+
+    const toggle = () =>{
+        setAbout(!about);
+        setHome(!home);
+    }
+
+
     return (
         <div className={styles.parent}>
             <div className={styles.container}>
                 <div className={styles.logo}>LOGO</div>
 
                 <div className={styles.navigation}>
-                    <div>
+                    <div onClick={toggle}>
                         <div> <Home /> </div>
                         <Link href="#">Home</Link>
                     </div>
-                    <div>
+                    <div onClick={toggle}>
                         <div> <User /> </div>
                         <Link href="#">About</Link>
                     </div>
