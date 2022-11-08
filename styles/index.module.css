@@ -1,7 +1,7 @@
 .container{
     width: 100vw;
     height: 100vh;
-    background-color: bisque;
+    background-color: #0d484e;
     display: grid;
     grid-template-columns: 300px 1fr;
 }

@@ -1,0 +1,21 @@
+.container{
+    font-size: .6rem;
+    max-width: 400px;
+  
+    padding: 0 15px;
+    position: relative;
+
+    padding: 25px;
+}
+
+.container::before{
+
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -2.5px;
+    transform: translateX(-50%) translateY(-50%) rotate(45deg);
+    background-color: rgb(89, 243, 166);
+    width: 15px;
+    height: 15px;
+}
