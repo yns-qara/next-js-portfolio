@@ -1,11 +1,12 @@
 .container{
     font-size: .6rem;
-    max-width: 400px;
-  
+    /* max-width: 10vw; */
+    width: 100%;
     padding: 0 15px;
     position: relative;
 
     padding: 25px;
+    text-align: justify;
 }
 
 .container::before{
@@ -13,7 +14,7 @@
     content: '';
     position: absolute;
     top: 50%;
-    left: -2.5px;
+    right: -2.5px;
     transform: translateX(-50%) translateY(-50%) rotate(45deg);
     background-color: rgb(89, 243, 166);
     width: 15px;

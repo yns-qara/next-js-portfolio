@@ -18,18 +18,24 @@ import styles from '../styles/about.module.css'
 
 const About = () => {
   return (
+    // <div className={styles.container}>
+    //   <div>
+    //     <Progress />
+    //   </div>
+    //   <div>
+    //     <Progress />
+    //   </div>
+    //   <div>
+    //     <Progress />
+    //   </div>
+    // </div>
     <div className={styles.container}>
-      <div>
-        <Progress />
-        <div>
+        <div className={styles.text}>
+          <Progress />
         </div>
-      </div>
-      <div>
-        <Progress />
-      </div>
-      <div>
-        <Progress />
-      </div>
+        <div className={styles.records}>
+          records
+        </div>
     </div>
   )
 }

@@ -1,7 +1,29 @@
-.container{
+/* .container{
     border: 2px solid rgb(89, 243, 166);
     border-width: 0 0 0 5px;
-    margin: 15px;
-    margin: auto;
+    margin-left: auto;
     color: #FFF;
+} */
+
+
+.container{
+    width: 100%;
+    height: 100%;
+
+    background-color: aqua;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container > div{
+    padding: 15px;
+}
+
+.text{
+    border: 4px solid black;
+    border-width: 0px 4px 0px 0px;
+    height: 100%;
+    width: 50%;
 }
